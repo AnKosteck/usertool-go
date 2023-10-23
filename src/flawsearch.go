@@ -2,4 +2,6 @@ package main
 
 type flawsearchCmd struct{}
 
-func (cmd *flawsearchCmd) Run(global *Globals) error {}
+func (cmd *flawsearchCmd) Run(global *Globals) error {
+	return nil
+}
