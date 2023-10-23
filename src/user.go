@@ -8,7 +8,6 @@ type User struct {
 	homePath, shellPath, gecko, fullName, informtion, email string
 	passwordHash                                            string
 	slurmAccounts                                           string
-	uid                                                     uint
 	//otherGroups Group[] //group slice
 }
 
