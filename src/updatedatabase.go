@@ -1,5 +1,5 @@
 package main
 
-type updatedatabaseCmd struct {}
+type updatedatabaseCmd struct{}
 
 func (cmd *updatedatabaseCmd) Run(global *Globals) error {}

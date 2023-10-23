@@ -1,5 +1,5 @@
 package main
 
-type flawsearchCmd struct {}
+type flawsearchCmd struct{}
 
 func (cmd *flawsearchCmd) Run(global *Globals) error {}
