@@ -11,6 +11,6 @@ type User struct {
 	//otherGroups Group[] //group slice
 }
 
-func (User *u) createUser() {
+func (u *User) createUser() {
 
 }

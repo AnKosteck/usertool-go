@@ -51,7 +51,7 @@ func main() {
 			Compact: true,
 		}),
 		kong.Vars{
-			version: "0.0.1",
+			"version": "0.0.1",
 		},
 	)
 	// Call the Run() method of the selected parsed command.
