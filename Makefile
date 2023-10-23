@@ -1,6 +1,6 @@
 # source: https://www.alexedwards.net/blog/a-time-saving-makefile-for-your-go-projects
 # Change these variables as necessary.
-MAIN_PACKAGE_PATH := ./src/main.go
+MAIN_PACKAGE_PATH := ./src/
 BINARY_NAME := usertool-go
 
 # ==================================================================================== #
