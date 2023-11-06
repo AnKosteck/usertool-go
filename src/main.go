@@ -9,6 +9,10 @@ import (
 )
 
 type Globals struct {
+	Group      string      `short:"G" help:"Defines the path to the group file." default:"/etc/group" type:"path"`
+	User       string      `short:"U" help:"Defines the path to the linux style passwd file" type:"path"`
+	MasterPasswd string    `short:"M" help:"Define the path to the master.passwd file" default:"/etc/master.passwd" type:"path"`
+	Shadow      string      `short:"S" help:"Defines the path to the linux type shadow file." default:"/etc/shadow" type:"path"`
 	SystemType string      `help:"Defines the type of system the usertool is execed on. Either b or l"`
 	Version    VersionFlag `name:"version" help:"Print version information and quit"`
 }
